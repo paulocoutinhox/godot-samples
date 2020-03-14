@@ -1,0 +1,25 @@
+# os
+Thumbs.db
+.DS_Store
+.rnd
+
+# ide
+.idea
+.vscode
+
+# auto generated
+**/*.pyc
+*.autosave
+*.user
+*.user.*
+CMakeSettings.json
+.vs
+__pycache__
+
+# godot
+.import/
+export.cfg
+export_presets.cfg
+
+# mono
+.mono/
