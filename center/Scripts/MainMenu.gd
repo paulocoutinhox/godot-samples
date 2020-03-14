@@ -23,7 +23,6 @@ func resize_background(view_size):
 		new_scale = view_size.y / background_size.y
 	
 	new_scale *= 0.5
-
 		
 	background.set_scale(Vector2(new_scale, new_scale))
 	
