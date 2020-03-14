@@ -4,8 +4,9 @@ var background_size = Vector2(2048, 1365)
 onready var background = $Background
 
 func _ready():
-	get_tree().get_root().connect("size_changed", self, "on_size_change")
-	resize_background(get_viewport_rect().size)
+	#get_tree().get_root().connect("size_changed", self, "on_size_change")
+	#resize_background(get_viewport_rect().size)
+	pass
 	
 func on_size_change():
 	resize_background(get_viewport_rect().size)
@@ -31,11 +32,6 @@ func resize_background(view_size):
 	else:
 		new_width = height * src_ratio
 		crop_width = new_width - width
-		
-	background.get_rect().size.x = 200
-	background.get_rect().size.y = 100
-	
-	#background.position = Vector2(view_size.x / 2, view_size.y / 2)
 
 func _on_ButtonChange_pressed():
 	get_tree().change_scene("res://Scenes/Stage.tscn")

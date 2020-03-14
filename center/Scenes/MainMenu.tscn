@@ -4,7 +4,7 @@
 [ext_resource path="res://Images/logo.png" type="Texture" id=2]
 [ext_resource path="res://Images/button_change_selected.png" type="Texture" id=3]
 [ext_resource path="res://Images/button_change.png" type="Texture" id=4]
-[ext_resource path="res://Scripts/MainMenu.gd" type="Script" id=5]
+[ext_resource path="res://Scripts/MainMenu-Paulo.gd" type="Script" id=5]
 
 [sub_resource type="Animation" id=1]
 resource_name = "Plane Move"
